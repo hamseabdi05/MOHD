@@ -1,0 +1,82 @@
+.emblem {
+    height: 80px;
+}
+.txtGreen{
+    color: #186e40;
+}
+
+.transparentCard {
+    width: 200px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.backTop {
+    margin-top: -330px;
+}
+
+.certficateText{
+    height: 70px;
+}
+
+.ft{
+    font-size: 12px;
+}
+
+.titleText {
+    text-align: center;
+    margin-top: 10px;
+}
+.titleText h1{
+    font-family: 'Calibri';
+    font-size: 48px;
+    font-weight: 600;
+    color: #186e40;
+}
+
+.titleText h5{
+    font-family: 'Copperplate Gothic Light';
+    color: #f7b633;
+    font-size: 22px;
+}
+
+.certifcateBody{
+    margin-top: 24px;
+}
+
+.certifcateBody .subText{
+    font-family: 'Adobe Caslon Pro';
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.infoText p{
+    margin-top: 24px;
+}
+
+.Signatures{
+    margin: 45px 90px 0px 90px;
+}
+
+.headBorder{
+    border-top: 1px solid rgb(67, 67, 67);
+}
+
+.TitleBold{
+    font-weight: bold;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+}
+
+.footer img{
+    height: 8%;
+    width: 150vh;
+}
+
+.pagebreak{
+    page-break-after: auto;
+}

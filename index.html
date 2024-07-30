@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.min.css"/>
+</head>
+
+<style>
+@page {
+    size: A4 landscape;
+    margin: 0;
+}
+@media print {
+    body {
+        visibility: visible !important;
+    }
+}
+
+body {
+    visibility: hidden; /* Hide preview print */
+}
+</style>
+
+<body>
+<div >
+    <div class="vstack">
+        <div class="container">
+        <div class="d-flex justify-content-center">
+            <img class="transparentCard" src="./assets/images/transparent card.png" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center backTop">
+            <div class="col-md-4">
+                <h6 class="text-center txtGreen">
+                    JAMHURIYADDA SOMALILAND <br>
+                    WASAARADDA HORUMARINTA <br>
+                    CAAFIMAADKA
+                </h6>
+            </div>
+            <div class="col-md-1">
+                <img class="emblem" src="./assets/images/Emblem.png" />
+            </div>
+            <div class="col-md-4">
+                <h6 class="text-center txtGreen">
+                    THE REPUBLIC OF SOMALILAND <br>
+                    MINISTRY OF HEALTH <br>
+                    DEVELOPMENT 
+                </h6>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row align-content-end mt-2">
+            <div class="col-5 align-content-end align-items-start">
+                <span class="ft">Ref:- MOHD: 15 April 2024</span> <br>
+                <span class="ft"><b class="txtGreen">Premit No:</b> 0212</span>
+            </div>
+            <div class="col-2">
+                <img class="certficateText" src="./assets/images/certifcate text.png" />
+            </div>
+            <div class="col-5 d-flex justify-content-end align-items-end">
+                <p class="text-center ft"><b class="txtGreen">Serial No:</b> 0212</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="titleText">
+        <h1>HEALTHCARE FACILITY PERMIT</h1>
+        <h5>This is to Permit that</h5>
+    </div>
+
+
+
+    <div class="certifcateBody">
+        <div class="row justify-content-center">
+            <span><b>Facility Name: </b><span class="subText">Nordic Lab Diagnostic Center.</span></span>
+        </div>
+        <div class="row justify-content-center mt-2">
+            <span><b>Facility Type: </b><span class="subText">Laboratory.</span></span> &nbsp;&nbsp;&nbsp;
+            <span><b>Facility Address: </b><span class="subText">M/Jeh, Hargeisa. Ga.an libah.</span> </span>
+        </div>
+    </div>
+
+
+    <div class="d-flex justify-content-center infoText">
+        <p class="w-75 text-center">
+            The minisitry of health development considers <b>Article 17</b> of the Consitution of the Republic and the State Healthy Policy, when the
+            above-named business met all the requirements The Ministry herby gave permission to operate a health facility in the republic of
+            Somaliland. This healthcare facility permit is valid only for one year.
+        </p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <h6><b>Incorporated Date:</b> 2024.</h6>
+    </div>
+
+    <div class="Signatures">
+        <div class="d-flex flex-reverse justify-content-between">
+            <div class="d-flex flex-column">
+                <span class="headBorder">Abdirahman Ibrahim  Hassan</span>
+                <span class="TitleBold">Direcotr of Health Services & Hospitals</span>
+            </div>
+            <div class="d-flex flex-column">
+                <span class="headBorder">Abdirahman Ibrahim  Hassan</span>
+                <span class="TitleBold">Vice Minister of Ministry of Health 
+                 <br> Development</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <img src="./assets/images/footer.png"/>
+</div>
+</div>
+
+<div class="pagebreak">
+
+</div>
+
+</body> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        window.print();
+    })
+</script>
+</html>
